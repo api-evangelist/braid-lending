@@ -1,7 +1,17 @@
 aid: braid-lending
-name: Braid Lending
-description: Braid Lending is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Pylon (formerly Braid Lending)
+description: >-
+  Pylon (formerly Braid Lending) is an AI-native mortgage infrastructure company
+  founded in 2022 and headquartered in New York, New York, backed by investors
+  including 500 Global and Citi. Pylon operates as "America's mortgage rails," an
+  API-first, MCP-native platform that lets brokers, fintechs, lenders, and banks
+  build and automate mortgage origination end to end — from application through
+  underwriting, decisioning, compliance, and capital markets settlement. Every
+  aspect of mortgage fulfillment is powered by APIs, complemented by a white-label
+  "Elements" UI component library for embedding fully digital, autonomous mortgage
+  experiences. The public developer surface (API reference, integration guides, and
+  a live playground) is gated behind a developer-access request form, so no public
+  OpenAPI, SDKs, or hosted docs were discoverable during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/braid-lending/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand: Braid Lending is now Pylon (pylonlending.com)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pylonwp.wpenginepowered.com/wp-content/uploads/2026/03/Pylon-featured-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mortgage
+- Lending
+- Fintech
+- Mortgage Origination
+- Capital Markets
+- Compliance
+- API-First
+- MCP-Native
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://pylonlending.com
+  url: https://www.pylonlending.com
+- type: DeveloperPortal
+  url: https://www.pylonlending.com/developers/
+- type: Blog
+  url: https://www.pylonlending.com/resources/
+- type: Support
+  url: https://www.pylonlending.com/contact/
+- type: TermsOfService
+  url: https://www.pylonlending.com/terms/
+- type: PrivacyPolicy
+  url: https://www.pylonlending.com/privacy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pylon-lending
+- type: Twitter
+  url: https://twitter.com/pylonlending
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/braid-75b6
+- type: DomainSecurity
+  url: security/braid-lending-domain-security.yml
+- type: WellKnown
+  url: well-known/braid-lending-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
